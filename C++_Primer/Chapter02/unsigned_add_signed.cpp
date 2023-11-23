@@ -12,7 +12,7 @@ int main () {
 	unsigned int u = 10;
 	int i = -42;
 
-	cout << i + i << endl;
-	cout << u + i << endl;
+	cout << i + i << endl; //输出-84
+	cout << u + i << endl; //如果int占32位，输出4294967264
 	return 0;
 }
